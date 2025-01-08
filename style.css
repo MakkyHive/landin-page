@@ -1,6 +1,8 @@
 *{
     box-sizing: border-box;
     font-size: 18px;
+    font-family: Hanken Grotesk;
+
 }
 .header{
     background: url(images/bg-hero-desktop.svg);
@@ -8,7 +10,14 @@
     background-color: hsl(193, 100%, 96%);
     padding: 30px;
     background-size: cover;
-}
+    
+
+      font-family: "Hanken Grotesk", serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+     
+    }
+
 .try{
     float: right;
 }
