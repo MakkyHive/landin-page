@@ -1,2 +1,2 @@
 # landin-page
-A simple landing page with css
+A simple landing page with CSS
