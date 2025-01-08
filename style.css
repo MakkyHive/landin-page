@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    font-size: 18px;
+}
+.header{
+    background: url(images/bg-hero-desktop.svg);
+    width: 100%;
+    background-color: hsl(193, 100%, 96%);
+    padding: 30px;
+    background-size: cover;
+}
+.try{
+    float: right;
+}
+.hero-section {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+  padding: 30px;
+}
+.hero-section-content{
+    margin-top: 80px;
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero-section-content h1{
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero-section img{
+   width: 50%;
+}
+.hero-section button{
+    background: hsl(322, 100%, 66%);
+    border-radius: 50px 50px 50px 50px ;
+   border: 1px solid white;
+    padding: 10px 25px 10px 25px;
+    font-size: 15px;
+    color: white;
+}
+.container{
+    width: 100%;
+    position: relative;
+    padding-top: 10%;
+    display: block;
+    justify-items: center;
+   
+}
+.card-one{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    border: 1px solid transparent;
+    padding: 40px 90px 40px 90px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 63px 27px rgba(0,0,0,0.1);
+
+    
+}
+.card-one img{
+    width: 40%;
+}
+.footer-container{
+    background-color: hsl(192, 100%, 9%);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px 0px 20px ;
+    color: white;
+    
+}
+.information{
+    padding-top: 60px;
+}
+
+.footer-container a{
+    display: block;
+    padding-top: ;
+}
+.information-section{
+    display: flex;
+   
+
+}
+.information-section p{
+    padding-left: 40px;
+
+}
+.information-section img{
+    width: 2%;
+}
+.small-card{
+    position: relative;
+    z-index: 2; /* green box will be above black box */
+    background: rgb(254, 254, 254);
+    width: 35%;
+    left: 33%;
+    bottom: -65px;
+    height: 150px;
+    display: block;
+    justify-items: center;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 63px 27px rgba(0,0,0,0.1);
+}
+.small-card button{
+    background: hsl(322, 100%, 66%);
+    border-radius: 50px 50px 50px 50px ;
+    border: 1px solid white;
+    padding: 10px 25px 10px 25px;
+    font-size: 15px;
+    color: white;
+}
