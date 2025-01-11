@@ -20,6 +20,11 @@
 
 .try{
     float: right;
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px 30px 5px 30px ;
+    box-shadow: 0px 10px 63px 27px rgba(61, 60, 60, 0.1);
+
 }
 .hero-section {
   width: 100%;
@@ -34,6 +39,7 @@
 }
 .hero-section-content h1{
     font-size: larger;
+    font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .hero-section img{
@@ -78,26 +84,34 @@
     color: white;
     
 }
-.information{
-    padding-top: 60px;
-}
+
 
 .footer-container a{
     display: block;
-    padding-top: ;
+    
+}
+.information{
+    padding: 90px;
+    font-size: 10px;
+    display: inline-block;
+    justify-content: space-between;
 }
 .information-section{
     display: flex;
-   
+    width: 60%;
 
 }
 .information-section p{
-    padding-left: 40px;
+   width: 500px;
+   padding-left: 20px;
 
 }
 .information-section img{
-    width: 2%;
+    width: 20px;
+    height: 25px;
+    margin-top: 20px;
 }
+
 .small-card{
     position: relative;
     z-index: 2; /* green box will be above black box */
@@ -113,10 +127,25 @@
     box-shadow: 0px 10px 63px 27px rgba(0,0,0,0.1);
 }
 .small-card button{
+    width: 100%;
     background: hsl(322, 100%, 66%);
     border-radius: 50px 50px 50px 50px ;
     border: 1px solid white;
     padding: 10px 25px 10px 25px;
     font-size: 15px;
     color: white;
+    margin: auto;
 }
+.second-information{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    border: 1px solid rgb(224, 221, 221);
+    margin-right: 30px;
+    justify-content: space-between;
+    padding-bottom: 60px;
+    font-size: 12px;
+}
+
+
+
